@@ -1,4 +1,4 @@
-package co.com.cattleya.client.application.dto.delete;
+package co.com.cattleya.ms.customer.client.application.dto.delete;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

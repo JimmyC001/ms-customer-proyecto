@@ -1,13 +1,13 @@
-package co.com.cattleya.client.presentation.controller;
+package co.com.cattleya.ms.customer.client.presentation.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 
-import co.com.cattleya.client.application.dto.create.CreateClientRequest;
-import co.com.cattleya.client.application.dto.create.CreateClientResponse;
-import co.com.cattleya.client.domain.model.Client;
-import co.com.cattleya.client.domain.service.ClientService;
+import co.com.cattleya.ms.customer.client.application.dto.create.CreateClientRequest;
+import co.com.cattleya.ms.customer.client.application.dto.create.CreateClientResponse;
+import co.com.cattleya.ms.customer.client.domain.model.Client;
+import co.com.cattleya.ms.customer.client.domain.service.ClientService;
 
 @RestController
 @RequestMapping("client")

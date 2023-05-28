@@ -1,4 +1,4 @@
-package co.com.cattleya.client.application.dto.create;
+package co.com.cattleya.ms.customer.client.application.dto.create;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;

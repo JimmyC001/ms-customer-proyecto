@@ -1,12 +1,12 @@
-package co.com.cattleya.client.presentation.controller;
+package co.com.cattleya.ms.customer.client.presentation.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
-import co.com.cattleya.client.application.dto.delete.DeleteClientRequest;
-import co.com.cattleya.client.domain.model.Client;
-import co.com.cattleya.client.domain.service.ClientService;
 
+import co.com.cattleya.ms.customer.client.application.dto.delete.DeleteClientRequest;
+import co.com.cattleya.ms.customer.client.domain.model.Client;
+import co.com.cattleya.ms.customer.client.domain.service.ClientService;
 @RestController
 @RequestMapping("client")
 public class DeleteClient {

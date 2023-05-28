@@ -1,4 +1,4 @@
-package co.com.cattleya.client.application.dto.update;
+package co.com.cattleya.ms.customer.client.application.dto.update;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
