@@ -1,10 +1,7 @@
 package co.com.cattleya.ms.customer.client.domain.service;
 
 import java.util.List;
-
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-
 import co.com.cattleya.ms.customer.client.domain.model.Client;
 import co.com.cattleya.ms.customer.client.domain.repository.ClientRepository;
 
