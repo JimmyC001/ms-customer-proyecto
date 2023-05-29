@@ -8,7 +8,7 @@ import co.com.cattleya.ms.customer.client.application.dto.delete.DeleteClientReq
 import co.com.cattleya.ms.customer.client.domain.model.Client;
 import co.com.cattleya.ms.customer.client.domain.service.ClientService;
 @RestController
-@RequestMapping("client")
+@RequestMapping("customer")
 public class DeleteClient {
     private final ClientService service;
     @Autowired

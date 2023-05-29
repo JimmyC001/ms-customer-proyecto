@@ -35,7 +35,8 @@ public class ClientService {
         Client dbClient = findByName(client.getName());
 
         if(dbClient != null){
-            return repository.save(dbClient);
+            repository.delete(dbClient);
+            return dbClient;
         }
         return null;
     }

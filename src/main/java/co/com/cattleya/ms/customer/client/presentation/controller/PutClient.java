@@ -10,7 +10,7 @@ import co.com.cattleya.ms.customer.client.domain.service.ClientService;
 
 
 @RestController
-@RequestMapping("client")
+@RequestMapping("customer")
 public class PutClient {
     private final ClientService service;
 

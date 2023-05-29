@@ -10,7 +10,7 @@ import co.com.cattleya.ms.customer.client.domain.model.Client;
 import co.com.cattleya.ms.customer.client.domain.service.ClientService;
 
 @RestController
-@RequestMapping("client")
+@RequestMapping("customer")
 public class PostClient {
     private final ClientService service;
 
